@@ -1,3 +1,6 @@
+// time = O(n)
+// space = O(1)
+
 int tribonacci(int n) { 
     if (n == 0) return 0;
     int t0 = 0, t1 = 1, t2 = 1;
